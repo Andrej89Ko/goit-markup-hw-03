@@ -119,9 +119,9 @@ body {
 
 .header-page {
   background-color: var(--c-dark-blue);
-  height: 600px;
   text-align: center;
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 .header-page-btn {
   font-weight: 700;
@@ -353,6 +353,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: var(--c-grey);
+  padding: 6px 22px;
 }
 /*#####################*/
 
