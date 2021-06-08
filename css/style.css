@@ -49,13 +49,17 @@ body {
 
 /*HEADER*/
 
+.header {
+  border-bottom: 1px solid #ececec;
+  max-width: 1600px;
+  margin: 0 auto;
+}
 .container-header {
   padding-top: 24px;
   padding-bottom: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .logo-link {
@@ -227,8 +231,12 @@ body {
 
 /* TEAM */
 
-.team-container {
+.team {
   background-color: var(--c-grey);
+  margin: 0 auto;
+  max-width: 1600px;
+}
+.team-container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -256,6 +264,7 @@ body {
 .team-list-item-card {
   box-sizing: border-box;
   padding: 30px 32px;
+  background-color: var(--c-white);
 }
 .team-list-item-title {
   font-weight: 500;
